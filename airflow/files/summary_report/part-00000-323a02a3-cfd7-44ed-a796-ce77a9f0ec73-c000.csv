@@ -1,0 +1,4 @@
+risk_status,total_applications,total_requested_amount
+rejected,2,18000.00
+approved,5,40500.00
+high_risk,4,163000.00
