@@ -44,8 +44,8 @@ services:
         airflow users create \
           --username ${_AIRFLOW_WWW_USER_USERNAME:-airflow} \
           --password ${_AIRFLOW_WWW_USER_PASSWORD:-airflow} \
-          --firstname Allahverdi \
-          --lastname Hajiyev \
+          --firstname Elmar \
+          --lastname Zeynalov \
           --role Admin \
           --email admin@local
     networks:

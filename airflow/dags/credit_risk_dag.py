@@ -16,7 +16,7 @@ with DAG(
     default_args=default_args,
     schedule_interval="@daily",
     catchup=False,
-    tags=["exam", "credit_risk"],
+    tags=["credit_risk", "pyspark", "etl"],
 ) as dag:
     with TaskGroup("tg_precheck") as tg_precheck:
         check_credit_data = SqlSensor(
